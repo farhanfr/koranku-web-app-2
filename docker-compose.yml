@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: mfarhanfr/ci-cd-web-koranku-test:latest
+    container_name: koranku-web-container
+    restart: always
+    ports:
+      - "8080:80"

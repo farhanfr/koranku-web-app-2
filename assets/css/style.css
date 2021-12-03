@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "latoblack";
+    src: url('Lato-Black.ttf');
+}
+@font-face {
+    font-family: "latobold";
+    src: url('Lato-Bold.ttf');
+}
+@font-face {
+    font-family: "latoregular";
+    src: url('Lato-Regular.ttf');
+}
+@font-face {
+    font-family: "latolight";
+    src: url('Lato-Light.ttf');
+}
+.navbar-brand {
+    font-size: 1.80rem;
+    font-family: "latobold";
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: "latoregular";
+    font-size: 1.20rem;
+    margin-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.header{
+    background-color: #75A9F9;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.header h1{
+    color: white;
+    font-size: 70px;
+    font-family: "latoblack";
+}
+.header h2{
+    font-weight: 300;
+    color: white;
+    font-family: "latobold";
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.header p{
+    color: white;
+    font-size: 24px;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+.header img{
+    margin: -20% 0 0 0;
+}
+.header .btnInfo{
+    margin-top: -60px;
+    padding: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+.header .btnGooglePlay{
+    width: 30%;
+    margin-top: -60px;
+}
+.header .container{
+    padding-top:13%;
+}
+
+/*Fitur*/
+.fitur .container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.fitur .card{
+    text-align: center;
+}
+.fitur h1{
+    font-family: "latobold";
+    color: #75A9F9;
+    line-height: 3;
+}
+.fitur .container .card{
+    padding: 30px 10px;
+    border: none;
+    box-shadow: 0 1px 10px 0 rgba(191,184,184,.5);
+}
+
+/*Intro*/
+.intro .container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.intro .container h1{
+    color: #75A9F9;
+    font-size: 48px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+.intro .container p{
+    text-align: justify;
+    width: 80%;
+    color: #606060;
+    font-size: 18px;
+}
+
+/*Testinoni*/
+.testimoni .container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.testimoni .container .card img{
+    width: 200px;
+    height: 200px;
+}
+.testimoni .container .card h4{
+    padding-top: 20px;
+}
+.testimoni .container .card{
+    padding: 30px 10px;
+    border: none;
+    text-align: center;
+}
+
+/*UNDUH*/
+.unduh{
+    background-color: #75A9F9;
+    padding: 30px 30px;
+}
+.unduh .container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.unduh .container p{
+    color: white;
+    font-size: 28px;
+    line-height: 2;
+    font-family: "latoregular";
+    letter-spacing: 1.5px;
+}
+.unduh .container .btnunduh{
+    background-color: white;
+    color: #75A9F9;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+/*Contact*/
+.contact .container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.contact .container h1{
+    font-family: "latolight";
+    letter-spacing: 2px;
+    font-size: 2.3em;
+    text-align: center;
+    color: #606060;
+}
+.contact .container p{
+    text-align: center;
+    /*width: 400px;*/
+}
+.contact .container ul{
+    list-style: none;
+}
+.contact .container ul li a{
+    list-style: none;
+    line-height: 2.5;
+    color: #606060;
+}
+.contact .container .btn{
+    background-color: #75A9F9;
+    color: white;
+    width: 200px;
+    border-radius: 0px;
+}
+
+/*Copyright*/
+.copyright{
+    padding: 0 0 10px 0;
+}
